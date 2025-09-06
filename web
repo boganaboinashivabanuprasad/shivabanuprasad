@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<!-- saved from url=(0052)file:///C:/Users/Varshith/Downloads/index.html#about -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Boganaboina Shiva Banu Prasad — ECE Portfolio</title>
+  <meta name="description" content="B.Tech ECE portfolio showcasing skills, projects, certifications, and contact information.">
+  <style>
+    :root{
+      --bg:#0b1020; --surface:#0f1630; --card:#121a36; --text:#e8ecf8; --muted:#9aa4b2; --accent:#6ef3a5; --accent-2:#7ab6ff; --line:rgba(255,255,255,.08);
+      --shadow:0 12px 30px rgba(0,0,0,.35);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial; background:linear-gradient(180deg,var(--bg),#0b1128 30%, #0a122a); color:var(--text)}
+    a{color:var(--accent); text-decoration:none}
+    .container{max-width:1100px; margin:0 auto; padding:0 1rem}
+    header{position:sticky; top:0; z-index:50; backdrop-filter:saturate(140%) blur(8px); background:rgba(11,16,32,.6); border-bottom:1px solid var(--line)}
+    nav{display:flex; align-items:center; justify-content:space-between; height:64px}
+    .brand{font-weight:800; letter-spacing:.3px}
+    .nav-links{display:flex; gap:1rem; flex-wrap:wrap}
+    .nav-links a{color:var(--muted)}
+    .nav-links a:hover{color:var(--text)}
+
+    .hero{padding:72px 0 36px}
+    .wrap{display:grid; grid-template-columns:1.2fr .8fr; gap:2rem; align-items:center}
+    .title{font-size:clamp(1.8rem, 2.5vw + 1.2rem, 3.2rem); line-height:1.1; margin:0 0 .6rem}
+    .subtitle{color:var(--muted); font-size:1.05rem}
+    .cta{margin-top:1.2rem; display:flex; gap:.8rem; flex-wrap:wrap}
+    .btn{display:inline-flex; align-items:center; gap:.5rem; background:var(--accent); color:#08121a; border:0; padding:.75rem 1rem; border-radius:12px; font-weight:700}
+    .btn.secondary{background:transparent; color:var(--accent-2); border:1px solid rgba(122,182,255,.35)}
+    .badge{display:inline-block; padding:.35rem .6rem; border:1px solid var(--line); border-radius:999px; font-size:.8rem; color:var(--muted)}
+
+    section{padding:48px 0}
+    h2{font-size:1.6rem; margin:0 0 1rem}
+    .grid{display:grid; gap:1rem}
+    .grid.cols-3{grid-template-columns:repeat(3,1fr)}
+    .grid.cols-2{grid-template-columns:repeat(2,1fr)}
+    .card{background:linear-gradient(180deg,var(--surface),var(--card)); border:1px solid var(--line); border-radius:16px; padding:1rem; box-shadow:var(--shadow)}
+    .muted{color:var(--muted)}
+    .tag{display:inline-block; padding:.25rem .6rem; background:rgba(255,255,255,.06); border:1px solid var(--line); border-radius:999px; margin:.2rem .25rem 0 0; font-size:.8rem}
+    footer{border-top:1px solid var(--line); padding:28px 0 56px; color:var(--muted)}
+    @media(max-width:900px){.wrap{grid-template-columns:1fr}} 
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="brand">Shiva Banu Prasad</div>
+        <div class="nav-links">
+          <a href="file:///C:/Users/Varshith/Downloads/index.html#about">About</a>
+          <a href="file:///C:/Users/Varshith/Downloads/index.html#education">Education</a>
+          <a href="file:///C:/Users/Varshith/Downloads/index.html#skills">Skills</a>
+          <a href="file:///C:/Users/Varshith/Downloads/index.html#projects">Projects</a>
+          <a href="file:///C:/Users/Varshith/Downloads/index.html#certs">Certifications</a>
+          <a href="file:///C:/Users/Varshith/Downloads/index.html#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="about">
+      <div class="container wrap">
+        <div>
+          <div class="badge">B.Tech — Electronics &amp; Communication Engineering</div>
+          <h1 class="title">Boganaboina Shiva Banu Prasad</h1>
+          <p class="subtitle">I am a B.Tech ECE student with a keen interest in <strong>robotics</strong>, <strong>embedded systems</strong>, and <strong>AI</strong>. My goal is to innovate in robotics and build smart technologies that solve real‑world problems.</p>
+          <div class="cta">
+            <a class="btn" href="file:///C:/Users/Varshith/Downloads/index.html#projects">View Projects</a>
+            <a class="btn secondary" href="file:///C:/Users/Varshith/Downloads/index.html#contact">Contact Me</a>
+          </div>
+        </div>
+        <div class="card">
+          <h3 style="margin-top:0">Quick Facts</h3>
+          <ul class="muted">
+            <li>Based in Hyderabad • India</li>
+            <li>2nd Year · 2024–2028 cohort</li>
+            <li>Interests: Robotics, Embedded, AI</li>
+            <li>Open to hackathons &amp; internships</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="container">
+        <h2>Education</h2>
+        <div class="card">
+          <strong>Sreenidhi Institute of Science and Technology (SNIST), Hyderabad</strong>
+          <div class="muted">B.Tech in Electronics &amp; Communication Engineering (ECE) · 2024–2028 · Current Year: 2nd</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="card">
+          <div class="muted">Core</div>
+          <div>
+            <span class="tag">Python</span>
+            <span class="tag">Prompting</span>
+            <span class="tag">AI‑assisted App Prototyping</span>
+            <span class="tag">Website Creation</span>
+          </div>
+          <div class="muted" style="margin-top:.8rem">Domains of Interest</div>
+          <div>
+            <span class="tag">Robotics</span>
+            <span class="tag">Embedded Systems</span>
+            <span class="tag">Artificial Intelligence</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="grid cols-2">
+          <div class="card">
+            <h3 style="margin-top:0">Real‑Time Projects — Software Development</h3>
+            <p class="muted">Building practical apps and tools; focusing on turning ideas into working prototypes using Python and AI tools.</p>
+            <ul class="muted">
+              <li>Add project title, short description, and outcomes.</li>
+              <li>Link GitHub repo and demo video (if any).</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3 style="margin-top:0">College Hackathons</h3>
+            <p class="muted">Participating in SNIST hackathons; collaborating with peers to prototype solutions quickly.</p>
+            <ul class="muted">
+              <li>Add hackathon name, date, and your role.</li>
+              <li>Mention problem statement and what you built.</li>
+            </ul>
+          </div>
+        </div>
+        <p class="muted" style="margin-top:1rem">Tip: As you complete projects, duplicate a card and fill in details.</p>
+      </div>
+    </section>
+
+    <section id="certs">
+      <div class="container">
+        <h2>Certifications</h2>
+        <div class="card">
+          <strong>IBM Quantum Computing — Certificate</strong>
+          <div class="muted">Executed sample programs on IBM Quantum computers using <strong>Qiskit</strong>.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <div class="card">
+          <p>Email: <a href="mailto:boganaboinashivabanuprasad@gmail.com">boganaboinashivabanuprasad@gmail.com</a></p>
+          <p>LinkedIn: <a href="https://www.linkedin.com/in/shivabanuprasad" target="_blank" rel="noopener">linkedin.com/in/shivabanuprasad</a></p>
+          <p class="muted">(Optional) Add your GitHub link to showcase code.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">© <span id="year">2025</span> Boganaboina Shiva Banu Prasad · Built with HTML/CSS</div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body></html>
